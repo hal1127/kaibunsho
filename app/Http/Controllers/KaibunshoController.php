@@ -19,4 +19,9 @@ class KaibunshoController extends Controller
 
     return view('kaibunsho', ['kaibunshos' => $kaibunshos, 'names' => $names]);
   }
+
+  function test()
+  {
+    return "hello!";
+  }
 }

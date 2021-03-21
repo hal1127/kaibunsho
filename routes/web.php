@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'KaibunshoController@index');
+Route::get('/hello', 'KaibunshoController@test');
